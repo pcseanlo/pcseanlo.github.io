@@ -1,185 +1,301 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
     <meta name="google-site-verification" content="VTdUqMgTNfDFgAWYgaLvPb4zWuYiHTVJO05DbUV4jkw" />
 
     <title>Pang-Chi (Sean) Lo</title>
-    <meta name="description" content="Welcome to the personal website of Pang-Chi Lo. I am a first-year MSCV student at Carnegie Mellon University. Connect with me here!">
+    <meta name="description" content="Welcome to the personal website of Pang-Chi Lo, a Master of Science in Computer Vision student at Carnegie Mellon University. Connect with me here!">
 
     <meta name="author" content="Pang-Chi Lo">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta property="og:title" content="Pang-Chi (Sean) Lo">
-    <meta property="og:description" content="Welcome to the personal website of Pang-Chi Lo. I am a first-year MSCV student at Carnegie Mellon University. Connect with me here!">
+    <meta property="og:description" content="Welcome to the personal website of Pang-Chi Lo, a Master of Science in Computer Vision student at Carnegie Mellon University. Connect with me here!">
     <meta property="og:url" content="https://pcseanlo.github.io/">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="icon" href="./images/favicon/favicon.ico">
   </head>
 
   <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Pang-Chi (Sean) Lo
-                </p>
-                <p>
-                  I am a first-year Master of Science in Computer Vision student at Carnegie Mellon University. Currently, I am working under Prof. <a href="https://www.cs.cmu.edu/~katef/">Katerina Fragkiadaki</a>'s research group. I completed my Bachelor of Science in Computer Science and Information Engineering degree at National Taiwan University. During my time at NTU, I had the privilege to be advised by Prof. <a href="https://winstonhsu.info/">Winston H. Hsu</a>, Prof. <a href="https://sites.google.com/site/yitingchen0524/home">Yi-Ting Chen</a>, and Prof. <a href="https://twke18.github.io/">Tsung-Wei Ke</a>. My primary research interests lie in robot learning, robotic perception, and 4D generative models
-                </p>
-                <p style="text-align:center">
-                  <a href="mailto:pcseanlo@gmail.com">Email</a> &nbsp;/&nbsp;
-                  <!-- <a href="data/CV.pdf">CV</a> &nbsp;/&nbsp; -->
-                  <a href="https://scholar.google.com/citations?user=xlqdpIwAAAAJ&hl=zh-TW&authuser=3">Google Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/pcseanlo">Github</a> &nbsp;/&nbsp;
-                  <a href="https://www.linkedin.com/in/pang-chi-lo/">LinkedIn</a> &nbsp;/&nbsp;
-                  <a href="https://pcseanlo.github.io/data/Resume_Pang-Chi_Lo.pdf">CV</a>
-                </p>
-              </td>
-              <td style="padding:2.5%;width:25%;max-width:25%">
-                <img style="width:100%;max-width:100%" alt="profile photo" src="images/Sean.jpg" class="hoverZoomLink">
-              </td>
-            </tr>
-          </tbody></table>
+    <div class="page-layout">
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>Research</h2>
-                <!-- <p>
-                  subtext for research section
-                </p> -->
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <img src='images/SM4RT.png' width="170">
-                </div>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="">
-                  <span class="papertitle">SM4RT: Cascaded Feed-forward Model for 4D Reconstruction</span>
-                </a>
-                <br>
-                <strong>Pang-Chi Lo*</strong>, Jhao-Syun Lai*, Tsung-Wei Ke
-                <br>
-                <em>Under Review at CVPR 2026</em>
-                <br>
-                <a href="">paper</a>
-                <p></p>
-                <p>
-                  While existing feed-forward approaches typically address geometry reconstruction and motion estimation separately and often predict motions in mixture of camera movement, SM4RT solves these tasks sequentially by first reconstructing 3D geometry and then bootstrapping motion estimation from the predicted structure.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <img src='images/VICtoR.png' width="170">
-                </div>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2405.16545">
-                  <span class="papertitle">VICtoR: Learning Hierarchical Vision-Instruction Correlation Rewards for Long-horizon Manipulation</span>
-                </a>
-                <br>
-                Kuo-Han Hung*, <strong>Pang-Chi Lo*</strong>, Jia-Fong Yeh*, Han-Yuan Hsu, Yi-Ting Chen, Winston H. Hsu
-                <br>
-                <em>ICLR 2025</em>
-                <br>
-                <a href="https://arxiv.org/abs/2405.16545">paper</a>
-                <p></p>
-                <p>
-                  Existing Vision-Instruction Correlation (VIC) reward models struggle with training for long-horizon tasks. We propose VICtoR, a new reward model for long-horizon robotic reinforcement learning that assigns rewards hierarchically.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one" style="margin-left: 10px;">
-                  <img src='images/AED.png' width="150">
-                </div>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2402.03860">
-                  <span class="papertitle">AED: Adaptable Error Detection for Few-shot Imitation Policy</span>
-                </a>
-                <br>
-                Jia-Fong Yeh, Kuo-Han Hung*, <strong>Pang-Chi Lo*</strong>, Chi-Ming Chung, Tsung-Han Wu, Hung-Ting Su, Yi-Ting Chen, Winston H Hsu
-                <br>
-                <em>NeurIPS 2024</em>
-                <br>
-                <a href="https://arxiv.org/abs/2402.03860">paper</a>
-                <p></p>
-                <p>
-                  The novel adaptable error detection (AED) problem is formulated for monitoring few-shot imitation policies' behaviors, and we propose PrObe to address the challenging problem by learning from the policy's feature representations.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-            <tr>
-              <td>
-                <h2>Professional Experience</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one" style="display: flex; justify-content: center; align-items: center;">
-                  <img src="images/Genenet.png" width="150">
-                </div>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                  <papertitle>Data Engineer Intern, Genenet Technology Ltd. UK</papertitle>
-                <br>
-                Jul. 2024 - Nov. 2024
-                <br>
-                <p>Selected in Talent Circulation Alliance Taiwanese Talent Outbound International Internship.</p>
-                <p>Deployed genetic sequence service and developed video-based cariac organoid beating detection.</p>
-              </td>
-            </tr>
-          </tbody></table>
+      <aside class="sidebar">
+        <div class="sidebar-top">
+          <img class="sidebar-photo" src="images/Sean.jpg" alt="Portrait of Pang-Chi Lo">
+          <h1 class="sidebar-name">Pang-Chi <em>(Sean)</em> Lo</h1>
+        </div>
+        <nav class="links">
+          <a href="mailto:pcseanlo@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Email
+          </a>
+          <a href="https://scholar.google.com/citations?user=xlqdpIwAAAAJ&hl=zh-TW&authuser=3">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 8l10 5 10-5-10-5z"/><path d="M6 10.5V16c0 1.5 2.5 3 6 3s6-1.5 6-3v-5.5"/></svg>
+            Google Scholar
+          </a>
+          <a href="https://github.com/pcseanlo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            Github
+          </a>
+          <a href="https://www.linkedin.com/in/pang-chi-lo/">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+          <a href="data/Pang-Chi_Lo_Resume_0810.pdf">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            CV
+          </a>
+        </nav>
+      </aside>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one" style="display: flex; justify-content: center; align-items: center;">
-                  <img src="images/SI.png" width="150">
+      <div class="content">
+
+        <section class="section hero">
+          <div class="section-head">
+            <span class="section-number">01</span>
+            <h2>About Me</h2>
+          </div>
+
+          <p class="bio">
+            I'm a Master's student in Computer Vision at Carnegie Mellon University, where I work with Prof. <a href="https://www.cs.cmu.edu/~katef/">Katerina Fragkiadaki</a> on problems at the intersection of robot learning, robotic perception, and 4D generative models. Before CMU, I earned my undergraduate degree in Computer Science and Information Engineering at National Taiwan University, where I was fortunate to be advised by Prof. <a href="https://winstonhsu.info/">Winston H. Hsu</a>, Prof. <a href="https://sites.google.com/site/yitingchen0524/home">Yi-Ting Chen</a>, and Prof. <a href="https://twke18.github.io/">Tsung-Wei Ke</a>.
+          </p>
+        </section>
+
+        <section class="section">
+          <div class="section-head">
+            <span class="section-number">02</span>
+            <h2>News</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"><span class="timeline-dot"></span><span class="timeline-line"></span></div>
+              <div class="timeline-content">
+                <span class="timeline-date">Jul 2026</span>
+                <p class="timeline-text">Began the ETH Robotics Student Fellowship at ETH Zurich, advised by Prof. Stefan Leutenegger.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"><span class="timeline-dot"></span><span class="timeline-line"></span></div>
+              <div class="timeline-content">
+                <span class="timeline-date">BMVC 2026</span>
+                <p class="timeline-text">"SM4RT" was accepted for publication.</p>
+              </div>
+            </div>
+
+            <details class="timeline-more">
+              <summary class="timeline-toggle">
+                <span class="timeline-marker"><span class="timeline-dot timeline-dot--ghost"></span><span class="timeline-line"></span></span>
+                <span class="timeline-content timeline-toggle-content">
+                  <span class="toggle-label toggle-label--closed">Show 7 earlier updates</span>
+                  <span class="toggle-label toggle-label--open">Show fewer updates</span>
+                  <svg class="timeline-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+                </span>
+              </summary>
+
+              <div class="timeline-item">
+                <div class="timeline-marker"><span class="timeline-dot"></span><span class="timeline-line"></span></div>
+                <div class="timeline-content">
+                  <span class="timeline-date">ICLR 2026</span>
+                  <p class="timeline-text">"RobotArena &infin;" was accepted for publication.</p>
                 </div>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                  <papertitle>Web Software Developer & Data Analyst, StatsInsight</papertitle>
-                <br>
-                May. 2022 - Jun. 2024
-                <br>
-                <p>Developed a website for Taiwanese baseball data visualization, advanced analysis, and scouting purpose.</p>
-                <p>Provided data analysis service for teams in the Chinese Professional Baseball League (CPBL) and the Chinese Taipei National Baseball Team in World Baseball Classics 2023.</p>
-              </td>
-            </tr>
-          </tbody></table>
-          
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-                  Website template is adapted from <a href="https://github.com/jonbarron/jonbarron_website">here</a>.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-        </td>
-      </tr>
-    </table>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-marker"><span class="timeline-dot"></span><span class="timeline-line"></span></div>
+                <div class="timeline-content">
+                  <span class="timeline-date">Oct 2025</span>
+                  <p class="timeline-text">Began Master's research with Prof. Katerina Fragkiadaki at Carnegie Mellon University.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-marker"><span class="timeline-dot"></span><span class="timeline-line"></span></div>
+                <div class="timeline-content">
+                  <span class="timeline-date">ICLR 2025</span>
+                  <p class="timeline-text">"VICtoR" was accepted for publication.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-marker"><span class="timeline-dot"></span><span class="timeline-line"></span></div>
+                <div class="timeline-content">
+                  <span class="timeline-date">Jan 2025</span>
+                  <p class="timeline-text">Graduated with a B.S. in Computer Science and Information Engineering from National Taiwan University.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-marker"><span class="timeline-dot"></span><span class="timeline-line"></span></div>
+                <div class="timeline-content">
+                  <span class="timeline-date">NeurIPS 2024</span>
+                  <p class="timeline-text">"AED" was accepted for publication.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-marker"><span class="timeline-dot"></span><span class="timeline-line"></span></div>
+                <div class="timeline-content">
+                  <span class="timeline-date">Sep 2024</span>
+                  <p class="timeline-text">Began undergraduate research on 4D scene reconstruction with Prof. Tsung-Wei Ke.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-marker"><span class="timeline-dot"></span></div>
+                <div class="timeline-content">
+                  <span class="timeline-date">Jul 2024</span>
+                  <p class="timeline-text">Began a Data Engineer internship at Genenet Technology Ltd. in the UK.</p>
+                </div>
+              </div>
+            </details>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-head">
+            <span class="section-number">03</span>
+            <h2>Education</h2>
+          </div>
+
+          <ol class="timeline timeline--edu">
+            <li class="timeline-item">
+              <div class="timeline-marker">
+                <span class="timeline-dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 8l10 5 10-5-10-5z"/><path d="M6 10.5V16c0 1.5 2.5 3 6 3s6-1.5 6-3v-5.5"/></svg></span>
+                <span class="timeline-line"></span>
+              </div>
+              <div class="timeline-content">
+                <span class="timeline-date">Expected Dec 2026</span>
+                <span class="timeline-title">Master of Science in Computer Vision</span>
+                <p class="timeline-school">Carnegie Mellon University &middot; Pittsburgh, PA</p>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-marker">
+                <span class="timeline-dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 8l10 5 10-5-10-5z"/><path d="M6 10.5V16c0 1.5 2.5 3 6 3s6-1.5 6-3v-5.5"/></svg></span>
+              </div>
+              <div class="timeline-content">
+                <span class="timeline-date">Jan 2025</span>
+                <span class="timeline-title">B.S. in Computer Science and Information Engineering</span>
+                <p class="timeline-school">National Taiwan University &middot; Taipei, Taiwan</p>
+              </div>
+            </li>
+          </ol>
+        </section>
+
+        <section class="section">
+          <div class="section-head">
+            <span class="section-number">04</span>
+            <h2>Research</h2>
+          </div>
+
+          <article class="pub">
+            <div class="pub-thumb">
+              <img src="images/RobotArena.png" alt="RobotArena teaser figure">
+            </div>
+            <div class="pub-body">
+              <span class="pub-tag">ICLR 2026</span>
+              <a class="pub-title" href="https://robotarenainf.github.io/">RobotArena &infin;: Scalable Robot Benchmarking via Real-to-Sim Translation</a>
+              <p class="pub-authors">Yash Jangir, Yidi Zhang*, <strong>Pang-Chi Lo</strong>*, Kashu Yamazaki*, Chenyu Zhang*, Kuan-Hsun Tu, Tsung-Wei Ke, Lei Ke, Yonatan Bisk, Katerina Fragkiadaki</p>
+              <p class="pub-abstract">
+                RobotArena &infin; is a scalable framework for benchmarking generalist robot policies: real-world environments are translated into simulation, making large-scale, reproducible evaluation possible.
+              </p>
+              <p class="pub-links">
+                <a href="https://arxiv.org/abs/2510.23571">paper<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                <a href="https://robotarenainf.github.io/">project page<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub">
+            <div class="pub-thumb">
+              <img src="images/SM4RT.png" alt="SM4RT teaser figure">
+            </div>
+            <div class="pub-body">
+              <span class="pub-tag">BMVC 2026</span>
+              <span class="pub-title">SM4RT: Cascaded Feed-forward Model for 4D Reconstruction</span>
+              <p class="pub-authors"><strong>Pang-Chi Lo</strong>*, Jhao-Syun Lai*, Tsung-Wei Ke</p>
+              <p class="pub-abstract">
+                Existing feed-forward approaches typically treat geometry reconstruction and motion estimation as separate problems, often predicting motion entangled with camera movement. SM4RT instead solves the two sequentially &mdash; reconstructing 3D geometry first, then bootstrapping motion estimation from the predicted structure.
+              </p>
+            </div>
+          </article>
+
+          <article class="pub">
+            <div class="pub-thumb">
+              <img src="images/VICtoR.png" alt="VICtoR teaser figure">
+            </div>
+            <div class="pub-body">
+              <span class="pub-tag">ICLR 2025</span>
+              <a class="pub-title" href="https://arxiv.org/abs/2405.16545">VICtoR: Learning Hierarchical Vision-Instruction Correlation Rewards for Long-horizon Manipulation</a>
+              <p class="pub-authors">Kuo-Han Hung*, <strong>Pang-Chi Lo</strong>*, Jia-Fong Yeh*, Han-Yuan Hsu, Yi-Ting Chen, Winston H. Hsu</p>
+              <p class="pub-abstract">
+                Existing Vision-Instruction Correlation (VIC) reward models struggle to train on long-horizon tasks. VICtoR addresses this with a hierarchical reward model built for long-horizon robotic reinforcement learning.
+              </p>
+              <p class="pub-links"><a href="https://arxiv.org/abs/2405.16545">paper<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></p>
+            </div>
+          </article>
+
+          <article class="pub">
+            <div class="pub-thumb">
+              <img src="images/AED.png" alt="AED teaser figure">
+            </div>
+            <div class="pub-body">
+              <span class="pub-tag">NeurIPS 2024</span>
+              <a class="pub-title" href="https://arxiv.org/abs/2402.03860">AED: Adaptable Error Detection for Few-shot Imitation Policy</a>
+              <p class="pub-authors">Jia-Fong Yeh, Kuo-Han Hung*, <strong>Pang-Chi Lo</strong>*, Chi-Ming Chung, Tsung-Han Wu, Hung-Ting Su, Yi-Ting Chen, Winston H. Hsu</p>
+              <p class="pub-abstract">
+                AED formulates the problem of monitoring a few-shot imitation policy's behavior as it acts, and introduces PrObe, a method that learns from the policy's own feature representations to catch errors as they happen.
+              </p>
+              <p class="pub-links"><a href="https://arxiv.org/abs/2402.03860">paper<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></p>
+            </div>
+          </article>
+        </section>
+
+        <section class="section">
+          <div class="section-head">
+            <span class="section-number">05</span>
+            <h2>Experience</h2>
+          </div>
+
+          <article class="exp">
+            <div class="exp-thumb">
+              <img src="images/ETH.png" alt="ETH Zurich logo">
+            </div>
+            <div class="exp-body">
+              <p class="exp-date">Jul. 2026 &ndash; Aug. 2026</p>
+              <span class="exp-title">ETH Robotics Student Fellow, Mobile Robotics Lab, ETH Zurich</span>
+              <p>Working with Prof. Stefan Leutenegger, I explored Real2Sim2Real robot learning &mdash; using model-based reinforcement learning to transfer skills from human demonstrations into robotic policies.</p>
+            </div>
+          </article>
+
+          <article class="exp">
+            <div class="exp-thumb">
+              <img src="images/Genenet.png" alt="Genenet Technology logo">
+            </div>
+            <div class="exp-body">
+              <p class="exp-date">Jul. 2024 &ndash; Nov. 2024</p>
+              <span class="exp-title">Data Engineer Intern, Genenet Technology Ltd. UK</span>
+              <p>As part of the Talent Circulation Alliance's Taiwanese Talent Outbound International Internship, I helped deploy a genetic sequence analysis service and built a video-based system for detecting cardiac organoid beating patterns.</p>
+            </div>
+          </article>
+
+          <article class="exp">
+            <div class="exp-thumb">
+              <img src="images/SI.png" alt="StatsInsight logo">
+            </div>
+            <div class="exp-body">
+              <p class="exp-date">May. 2022 &ndash; Jun. 2024</p>
+              <span class="exp-title">Web Software Developer &amp; Data Analyst, StatsInsight</span>
+              <p>I built the first online platform for Taiwanese baseball scouting and statistical visualization, then used it to support data analysis for teams in the Chinese Professional Baseball League (CPBL) and the Chinese Taipei National Team at the 2023 World Baseball Classic.</p>
+            </div>
+          </article>
+        </section>
+
+        <footer class="footer">
+          <p>&copy; 2026 Pang-Chi Lo</p>
+        </footer>
+
+      </div>
+    </div>
   </body>
 </html>
-
